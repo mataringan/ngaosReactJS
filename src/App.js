@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import Footer from "./components/Footer";
 import Nav from "./components/Nav";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -18,6 +19,7 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/newsroom" element={<Newsroom />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { Carousel } from "flowbite-react";
 export default function Carou() {
   return (
     <div>
-      <div className="h-72 sm:h-96 md:h-[100vh]">
+      <div className="h-[350px] sm:h-96 md:h-[500px] xl:h-[100vh]">
         <Carousel>
           <img src={require("../assets/father-1822528.jpg")} alt="..." />
           <img src={require("../assets/sunset-3819469.jpg")} alt="..." />
