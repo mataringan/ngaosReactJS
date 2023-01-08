@@ -19,7 +19,6 @@ function App() {
         <Route path="/product" element={<Product />} />
         <Route path="/newsroom" element={<Newsroom />} />
       </Routes>
-      <Footer />
     </div>
   );
 }
